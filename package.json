@@ -1,0 +1,28 @@
+{
+  "name": "@lucacelli/n8n-openfda-510k-clinicaltrials-api-workflow",
+  "version": "2.0.0",
+  "description": "Importable n8n JSON workflow blueprint that synchronizes official OpenFDA 510(k) medical device clearances and ClinicalTrials.gov v2 study updates.",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "n8n-openfda-510k-clinicaltrials-api-workflow": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "demo": "node index.js --demo"
+  },
+  "keywords": [
+    "n8n",
+    "n8n-workflows",
+    "openfda",
+    "clinical-trials",
+    "medtech",
+    "biotech",
+    "healthcare-api",
+    "workflow-automation",
+    "rest-api",
+    "regulatory-compliance"
+  ],
+  "author": "Lucacelli Data Engineering",
+  "license": "MIT"
+}
